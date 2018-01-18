@@ -115,8 +115,8 @@
                       (nord-region-highlight-background
                        ,(if (string= nord-region-highlight "frost")
                             "#88C0D0"
-                          (when (string= nord-region-highlight "snowstorm") "#D8DEE9"
-                                "#434C5E")))
+                          (when (string= nord-region-highlight "snowstorm") "#D8DEE9")
+                          "#434C5E"))
                       (nord-uniform-mode-lines-background ,(if nord-uniform-mode-lines "#4C566A" "#3B4252"))))
 
 (defun nord-gui-color (sym)
